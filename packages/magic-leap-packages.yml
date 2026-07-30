@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: derived
+source: >-
+  github.com/magicleap organization + ml2-developer.magicleap.com developer
+  portal. Magic Leap 2 is a device SDK platform (Unity / OpenXR / native C API);
+  first-party SDKs are distributed via the Magic Leap Hub package registry and
+  the GitHub organization rather than public language registries (npm/PyPI/etc).
+packages:
+- name: Magic Leap Unity SDK
+  official: true
+  registry: magic-leap-hub
+  language: csharp
+  platform: unity
+  homepage: https://developer-docs.magicleap.cloud/
+  source: https://github.com/magicleap/MagicLeapUnityExamples
+  description: >-
+    First-party Unity SDK for Magic Leap 2, distributed through the Magic Leap
+    Hub package manager. MagicLeapUnityExamples is the official example project.
+- name: MagicLeapUnityMRTK3
+  official: true
+  registry: github
+  language: csharp
+  platform: unity
+  source: https://github.com/magicleap/MagicLeapUnityMRTK3
+  description: Magic Leap 2 Unity MRTK3 (Mixed Reality Toolkit 3) integration package.
+- name: OpenXR (Magic Leap 2 runtime)
+  official: true
+  registry: openxr
+  language: cpp
+  platform: native
+  homepage: https://developer-docs.magicleap.cloud/
+  description: >-
+    Magic Leap 2 exposes a native OpenXR runtime and C API SDK for building
+    against the Khronos OpenXR standard on device.

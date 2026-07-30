@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of Magic Leap web + developer hosts
+description: >-
+  Probe results for standard /.well-known/ discovery endpoints across Magic
+  Leap public hosts. No endpoints returned 200; absence recorded as valid data.
+endpoints:
+- host: magicleap.com
+  path: /.well-known/security.txt
+  status: 301
+  file: null
+- host: magicleap.com
+  path: /.well-known/openid-configuration
+  status: 301
+  file: null
+- host: magicleap.com
+  path: /.well-known/oauth-authorization-server
+  status: 301
+  file: null
+- host: magicleap.com
+  path: /.well-known/api-catalog
+  status: 301
+  file: null
+- host: magicleap.com
+  path: /.well-known/ai-plugin.json
+  status: 301
+  file: null
+- host: www.magicleap.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: ml2-developer.magicleap.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: ml2-developer.magicleap.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: developer-docs.magicleap.cloud
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: developer-docs.magicleap.cloud
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null

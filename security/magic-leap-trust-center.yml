@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.magicleap.com/
+description: >-
+  Magic Leap publishes named security/compliance attestations on its corporate
+  site and third-party integration security requirements. No standalone hosted
+  trust-center portal (e.g. trust.magicleap.com) was found; certifications are
+  stated on magicleap.com.
+trust_center_url: null
+certifications:
+- name: ISO/IEC 27001:2022
+  status: certified
+  source: https://www.magicleap.com/
+- name: SOC 2 Type II
+  type: attestation
+  status: attested
+  source: https://www.magicleap.com/
+programs:
+- name: Third-party integration security requirements
+  source: https://www.magicleap.com/
