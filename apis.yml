@@ -1,8 +1,16 @@
 aid: magic-leap
 name: Magic Leap
-description: 'Magic Leap is a company surfaced as a portfolio company of a16z, kleiner-perkins, obvious-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Magic Leap is an augmented reality company headquartered in Plantation,
+  Florida, building see-through AR optics (waveguides and display systems) and
+  the Magic Leap 2 enterprise AR headset, along with a developer platform for
+  spatial computing. Developers build on-device applications using the Magic
+  Leap Unity SDK, an OpenXR runtime, and a native C API, distributed through the
+  Magic Leap Hub package registry and the company's GitHub organization. Magic
+  Leap does not publish a public hosted REST API or OpenAPI specification; its
+  integration surface is the device SDK. The company holds ISO/IEC 27001:2022
+  and SOC 2 Type II attestations. It was added to the API Evangelist network as
+  a VC-portfolio lead (a16z, Kleiner Perkins, Obvious Ventures).
 url: https://raw.githubusercontent.com/api-evangelist/magic-leap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,31 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://magicleap.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Augmented Reality
+- Spatial Computing
+- AR Headset
+- Developer Platform
+- SDK
+- OpenXR
+- Unity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +54,38 @@ maintainers:
 common:
 - type: Website
   url: https://magicleap.com
+- type: DeveloperPortal
+  url: https://ml2-developer.magicleap.com/
+- type: Documentation
+  url: https://developer-docs.magicleap.cloud/
+- type: GitHubOrganization
+  url: https://github.com/magicleap
+- type: Blog
+  url: https://magicleap.com/newsroom
+- type: HelpCenter
+  url: https://www.magicleap.care/hc/en-us
+- type: Support
+  url: https://magicleap.com/contact-us
+- type: TermsOfService
+  url: https://magicleap.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://magicleap.com/legal/privacy-policy
+- type: Packages
+  url: packages/magic-leap-packages.yml
+- type: SDKs
+  url: packages/magic-leap-packages.yml
+- type: WellKnown
+  url: well-known/magic-leap-well-known.yml
+- type: TrustCenter
+  url: security/magic-leap-trust-center.yml
+- type: Compliance
+  url: security/magic-leap-trust-center.yml
+- type: DomainSecurity
+  url: security/magic-leap-domain-security.yml
+- type: LLMsTxt
+  url: llms/magic-leap-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
